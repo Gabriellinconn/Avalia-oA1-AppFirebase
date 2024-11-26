@@ -167,7 +167,8 @@ class MainFragment : Fragment(),
     }
 
     private fun onFilterClicked() {
-
+        // Show the dialog containing filter options
+        filterDialog.show(childFragmentManager, FilterDialogFragment.TAG)
     }
 
     private fun onClearFilterClicked() {
