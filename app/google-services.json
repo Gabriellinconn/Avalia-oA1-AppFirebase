@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "415997537843",
+    "firebase_url": "https://friendly-eats-fbcaf-default-rtdb.firebaseio.com",
+    "project_id": "friendly-eats-fbcaf",
+    "storage_bucket": "friendly-eats-fbcaf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415997537843:android:7fd275ba552c18fd02fd46",
+        "android_client_info": {
+          "package_name": "br.edu.up.rgm34195050"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIrBS8zOtumITRSu4YRGrXFFusuXGu1X0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

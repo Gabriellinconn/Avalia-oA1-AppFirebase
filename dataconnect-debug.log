@@ -1,0 +1,13 @@
+I1126 15:08:46.195263   10308 load.go:37] Reloading schema and connectors...
+I1126 15:08:46.213768   10308 control.go:45] [engine.Service /emulator/AppFirebase33824215 83c9] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1126 15:08:46.218936   10308 control.go:73] [engine.Service /emulator/AppFirebase33824215 83c9] UpdateConnector(default): done sources: connector\mutations.gql [1163B] connector\queries.gql [1855B] 
+I1126 15:08:46.231904   10308 codegen.go:82] [connector "default" kotlinSdk] Generating sources into "C:\\Users\\glinc\\AndroidStudioProjects\\firemiga\\avaliacaoA1Android\\AppFirebase33824215\\app\\src\\main\\java\\connectors\\default"
+I1126 15:08:46.235452   10308 collector.go:107] schema extensions wrote into "C:\\Users\\glinc\\AndroidStudioProjects\\firemiga\\avaliacaoA1Android\\AppFirebase33824215\\dataconnect\\.dataconnect\\schema"
+Generated sources: prelude.gql [65151B] 
+I1126 15:08:46.236450   10308 collector.go:107] connector "default" kotlinSdk wrote into "C:\\Users\\glinc\\AndroidStudioProjects\\firemiga\\avaliacaoA1Android\\AppFirebase33824215\\app\\src\\main\\java\\connectors\\default"
+Generated sources: DefaultConnector.kt [8314B] DefaultConnectorKeys.kt [799B] DefaultConnectorEnums.kt [797B] 
+I1126 15:08:46.236450   10308 load.go:115] Finished reloading
+I1126 15:08:46.236450   10308 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1126 15:08:46.236450   10308 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1126 15:08:49.400236   10308 control.go:45] [engine.Service /emulator/AppFirebase33824215 4cbe] UpdateSchema(): done sources: schema\schema.gql [1384B] 
+I1126 15:08:49.400372   10308 control.go:73] [engine.Service /emulator/AppFirebase33824215 4cbe] UpdateConnector(default): done sources: connector\queries.gql [1855B] connector\mutations.gql [1163B] 
