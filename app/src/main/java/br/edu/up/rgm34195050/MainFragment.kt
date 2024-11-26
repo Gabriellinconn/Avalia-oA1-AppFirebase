@@ -233,9 +233,9 @@ class MainFragment : Fragment(),
     private fun startSignIn() {
         // Sign in with FirebaseUI
         val intent = AuthUI.getInstance().createSignInIntentBuilder()
-                .setAvailableProviders(listOf(AuthUI.IdpConfig.EmailBuilder().build()))
-                .setIsSmartLockEnabled(false)
-                .build()
+            .setAvailableProviders(listOf(AuthUI.IdpConfig.EmailBuilder().build()))
+            .setIsSmartLockEnabled(false)
+            .build()
 
         signInLauncher.launch(intent)
         viewModel.isSigningIn = true

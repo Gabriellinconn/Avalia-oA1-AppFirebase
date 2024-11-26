@@ -1,4 +1,4 @@
-"package br.edu.up.rgm34195050.adapter"
+package br.edu.up.rgm34195050.adapter
 
 import androidx.recyclerview.widget.RecyclerView
 import android.util.Log
